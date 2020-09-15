@@ -17,7 +17,7 @@ public class CreateFolderStructure : ScriptableWizard
     List<string> scriptsFolders = new List<string>() { "Core", "Editor", "Shaders" };
     List<string> resourcesFolders = new List<string>() { "Characters", "Managers", "Props", "UI" };
 
-    [MenuItem("StickCrafter/Create Project Folders")]
+    [MenuItem("Stick Crafter/Create Project Folders")]
     static void CreateWizard()
     {
         ScriptableWizard.DisplayWizard("Create Project Folders", typeof(CreateFolderStructure), "Create");
